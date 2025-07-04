@@ -1,0 +1,188 @@
+[
+  {
+    "Id": 1,
+    "invoiceNumber": "INV-2024-001",
+    "status": "paid",
+    "clientName": "Acme Corporation",
+    "clientEmail": "billing@acme.com",
+    "clientAddress": "123 Business Ave\nSuite 100\nNew York, NY 10001",
+    "issueDate": "2024-01-15",
+    "dueDate": "2024-02-15",
+    "lineItems": [
+      {
+        "description": "Website Development",
+        "quantity": 1,
+        "rate": 2500.00,
+        "amount": 2500.00
+      },
+      {
+        "description": "SEO Optimization",
+        "quantity": 1,
+        "rate": 750.00,
+        "amount": 750.00
+      }
+    ],
+    "subtotal": 3250.00,
+    "tax": 8.25,
+    "total": 3518.13,
+    "notes": "Thank you for your business! Payment terms: Net 30 days.",
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "invoiceNumber": "INV-2024-002",
+    "status": "sent",
+    "clientName": "TechStart Inc",
+    "clientEmail": "finance@techstart.com",
+    "clientAddress": "456 Innovation Dr\nTech Park\nSan Francisco, CA 94105",
+    "issueDate": "2024-01-20",
+    "dueDate": "2024-02-20",
+    "lineItems": [
+      {
+        "description": "Mobile App Development",
+        "quantity": 1,
+        "rate": 5000.00,
+        "amount": 5000.00
+      },
+      {
+        "description": "API Integration",
+        "quantity": 1,
+        "rate": 1500.00,
+        "amount": 1500.00
+      }
+    ],
+    "subtotal": 6500.00,
+    "tax": 9.50,
+    "total": 7117.50,
+    "notes": "Project includes 3 months of free maintenance. Payment due within 30 days.",
+    "createdAt": "2024-01-20T14:15:00Z"
+  },
+  {
+    "Id": 3,
+    "invoiceNumber": "INV-2024-003",
+    "status": "overdue",
+    "clientName": "Global Solutions Ltd",
+    "clientEmail": "accounts@globalsolutions.com",
+    "clientAddress": "789 Corporate Blvd\nFloor 25\nChicago, IL 60601",
+    "issueDate": "2024-01-05",
+    "dueDate": "2024-02-05",
+    "lineItems": [
+      {
+        "description": "Consulting Services",
+        "quantity": 40,
+        "rate": 150.00,
+        "amount": 6000.00
+      },
+      {
+        "description": "System Architecture",
+        "quantity": 1,
+        "rate": 2000.00,
+        "amount": 2000.00
+      }
+    ],
+    "subtotal": 8000.00,
+    "tax": 7.75,
+    "total": 8620.00,
+    "notes": "Consulting hours: January 2024. Late payment fee of 2% per month applies.",
+    "createdAt": "2024-01-05T09:00:00Z"
+  },
+  {
+    "Id": 4,
+    "invoiceNumber": "INV-2024-004",
+    "status": "draft",
+    "clientName": "Creative Agency Co",
+    "clientEmail": "billing@creativeagency.com",
+    "clientAddress": "321 Design Street\nArt District\nLos Angeles, CA 90028",
+    "issueDate": "2024-01-25",
+    "dueDate": "2024-02-25",
+    "lineItems": [
+      {
+        "description": "Brand Identity Design",
+        "quantity": 1,
+        "rate": 3000.00,
+        "amount": 3000.00
+      },
+      {
+        "description": "Logo Design",
+        "quantity": 1,
+        "rate": 1200.00,
+        "amount": 1200.00
+      },
+      {
+        "description": "Business Card Design",
+        "quantity": 1,
+        "rate": 300.00,
+        "amount": 300.00
+      }
+    ],
+    "subtotal": 4500.00,
+    "tax": 10.00,
+    "total": 4950.00,
+    "notes": "Draft for review. Final invoice will be sent upon approval.",
+    "createdAt": "2024-01-25T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "invoiceNumber": "INV-2024-005",
+    "status": "paid",
+    "clientName": "E-commerce Plus",
+    "clientEmail": "payments@ecommerceplus.com",
+    "clientAddress": "654 Retail Way\nCommerce Center\nAustin, TX 78701",
+    "issueDate": "2024-01-18",
+    "dueDate": "2024-02-18",
+    "lineItems": [
+      {
+        "description": "E-commerce Platform Setup",
+        "quantity": 1,
+        "rate": 4000.00,
+        "amount": 4000.00
+      },
+      {
+        "description": "Payment Gateway Integration",
+        "quantity": 1,
+        "rate": 800.00,
+        "amount": 800.00
+      },
+      {
+        "description": "Training Session",
+        "quantity": 4,
+        "rate": 200.00,
+        "amount": 800.00
+      }
+    ],
+    "subtotal": 5600.00,
+    "tax": 8.00,
+    "total": 6048.00,
+    "notes": "Platform includes 6 months of technical support. Paid via bank transfer.",
+    "createdAt": "2024-01-18T11:20:00Z"
+  },
+  {
+    "Id": 6,
+    "invoiceNumber": "INV-2024-006",
+    "status": "sent",
+    "clientName": "Healthcare Partners",
+    "clientEmail": "finance@healthcarepartners.com",
+    "clientAddress": "987 Medical Center Dr\nHealthcare District\nBoston, MA 02101",
+    "issueDate": "2024-01-22",
+    "dueDate": "2024-02-22",
+    "lineItems": [
+      {
+        "description": "HIPAA Compliance Audit",
+        "quantity": 1,
+        "rate": 3500.00,
+        "amount": 3500.00
+      },
+      {
+        "description": "Security Assessment",
+        "quantity": 1,
+        "rate": 2000.00,
+        "amount": 2000.00
+      }
+    ],
+    "subtotal": 5500.00,
+    "tax": 6.25,
+    "total": 5843.75,
+    "notes": "Compliance report delivered. Payment terms: Net 30 days from invoice date.",
+    "createdAt": "2024-01-22T13:30:00Z"
+  }
+]
